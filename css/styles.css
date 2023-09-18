@@ -1,0 +1,243 @@
+.h1 {
+    font-family: 'Germania One', cursive;
+    color: #fff;
+}
+
+header {
+    background-color: rgb(47, 47, 253);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.lista-nav li {
+    
+    display: inline;
+    margin-right: 10px;
+}
+
+.Lista-nav2 li {
+    
+    display: inline;
+    margin-right: 10px;
+}
+
+.caja-azul {
+    color: #fff;
+
+    background-color:rgb(4, 4, 201);
+    width: auto;
+    height: auto;  
+
+    margin: 100px 15px 100px 15px;
+
+    padding: 50px;
+
+    border: solid 5px black
+}
+
+
+.caja-azul2 {
+    background-color:rgb(4, 4, 201);
+    width: auto;
+    height: 20px;  
+
+    margin: 50px 10px 10px 10px;
+
+    padding: 50px;
+
+    border: solid 5px rgb(0, 0, 0)
+}
+
+.contacto {
+    width: 80px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
+
+.caja-turnos {
+    color: #fff;
+    background-color: rgb(0, 94, 234);
+    width: 500px;
+    height: 180px;
+    margin: 50px 10px 10px 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.caja-turnos2 {
+    color: #fff;
+    background-color: rgb(0, 55, 137);
+    width: 500px;
+    height: 180px;
+    margin: 50px 10px 10px 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.padre-cajas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.caja-estudios {
+    font-size: larger;
+    color: aliceblue;
+    background-color:rgb(4, 0, 255);
+    width: auto; 
+    height: auto;  
+
+    margin: 10px 50px 100px 15px;
+
+    padding: 50px;
+
+
+    border: solid 5px rgb(3, 53, 153);
+}
+
+.caja-historiaclinica {
+    font-size: larger;
+    color: aliceblue;
+    background-color:rgb(4, 0, 255);
+    width: auto;
+    height: auto;  
+
+    margin: 10px 50px 100px 15px;
+
+    padding: 50px;
+
+
+    border: solid 5px rgb(3, 53, 153);
+
+    text-align: start;
+
+}
+
+.familiapng {
+    margin: 0px 0px 20px 0px;
+}
+
+
+.clinicapng img {
+    width: 93.90rem;
+    height: 25rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.doctorpng img {
+    width: 93.90rem;
+    height: 25rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.familiapng img {
+    width: 93.90rem;
+    height: 25rem;
+    display: block;
+    margin: 10px 0px 50px 0px
+}
+
+.bi {
+    font-size: 3rem;
+}
+
+.bi-instagram {
+    color: rgb(230,70,70);
+}
+
+.bi-tiktok {
+    color: #000;
+}
+
+.bi-youtube {
+    color: red;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clinicapng img {
+    height: 45vh;
+}
+
+@media (min-width: 520px) {
+    .clinicapng img {
+        height: 50vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .clinicapng img {
+        height: 70vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .clinicapng img {
+        height: 80vh;
+    }
+
+}
+
+footer{
+    background-color: blue;
+    height: 100px;
+}
+
+footer a{
+    color: #fff;
+}
+
+@media (min-width: 520px) {
+    .doctorpng img {
+        height: 450px;
+
+    }
+    .familiapng img {
+        height: 20vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .doctorpng img {
+        height: 70vh;
+    }
+    .familiapng img {
+        height: 70vh;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .doctorpng img {
+        height: 80vh;
+    }
+}
+
+.text-center{
+    color: blue;
+    margin-bottom: 30px;
+}
+
+
+.especialidades{
+    cursor: pointer;
+}
